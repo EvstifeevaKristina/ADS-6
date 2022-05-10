@@ -2,8 +2,9 @@
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
 
-template<typename T, int size>
+
 class TPQueue {
+ 
  private:
     T arr[100];
     int first, last;
